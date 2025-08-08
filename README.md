@@ -86,5 +86,5 @@ Estes sinais servem para atualizar botões, sliders e rótulos na GUI.
 * Pode não abrir certos formatos (MKV, FLV, WebM) sem os codecs corretos.
 * Para suporte universal, normalmente usamos **`python-vlc`**.
 
-Queres que eu faça essa comparação?
+
 
