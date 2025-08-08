@@ -7,6 +7,6 @@
 
 - Instruções:
  1) Instalar dependências: pip install PyQt5
- 2) Executar: python editor_exibidor_video_qt.py
+ 2) Executar: python Video-Viewer.py
 
 -Compatível com Windows, Linux e macOS (desde que PyQt5 esteja instalado).
