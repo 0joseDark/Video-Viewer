@@ -79,6 +79,35 @@ O `QMediaPlayer` envia sinais quando algo muda:
 Estes sinais servem para atualizar botões, sliders e rótulos na GUI.
 
 ---
+- leitor de vídeo Qt
+
+* menu e toolbar com ícones: **Abrir**, **Abrir URL**, **Guardar**, **Guardar como…**, **Apagar**, **Sair**
+* leitura e exibição de vídeos (ficheiro local ou stream/URL)
+* controlos: **play/pausa**, **parar**, **posição**, **tempo**, **volume**, **ecrã inteiro (F11)**
+* funciona em **Windows 10**, **Ubuntu** e **macOS** (Qt6/PySide6)
+
+Para usar:
+
+1. Instalar dependências
+
+```bash
+pip install PySide6
+```
+
+2. Guarda o ficheiro como `leitor_video_qt.py` (o código está no canvas).
+3. Executa:
+
+```bash
+python leitor_video_qt.py
+```
+
+Notas rápidas:
+
+* **Guardar/Guardar como…**: copia o ficheiro de vídeo aberto para o destino escolhido (se for um URL/stream, não há origem local para copiar).
+* **Apagar**: remove do disco o ficheiro local atualmente aberto (com confirmação).
+* Se algum formato não abrir, poderá faltar um **codec** do sistema. No Linux, certifica-te de ter os pacotes multimédia (ex.: `gstreamer` e plugins). No macOS/Windows, em geral os formatos comuns (`.mp4`, `.mov`, `.mkv`, `.avi`, `.webm`) funcionam se o sistema tiver suporte.
+
+
 
 ## ⚠️ Limitações
 
