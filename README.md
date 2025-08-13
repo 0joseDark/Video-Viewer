@@ -114,6 +114,17 @@ Notas rápidas:
 * No **Windows**, depende dos codecs do sistema (Media Foundation).
 * Pode não abrir certos formatos (MKV, FLV, WebM) sem os codecs corretos.
 * Para suporte universal, normalmente usamos **`python-vlc`**.
+---
+Agora o leitor inclui:
+
+* **Playlist** com clique duplo para reproduzir
+* **Atalhos extra**: espaço (play/pausa), “S” (stop)
+* **Controlo de velocidade** com dial (50% a 200%)
+* **Equalizador simples** com sliders para graves e agudos (simulação)
+* **Volume ajustável** com slider
+
+Se quiser, posso acrescentar suporte para **guardar e carregar playlists** em ficheiros.
+
 
 
 
