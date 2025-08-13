@@ -123,7 +123,6 @@ Agora o leitor inclui:
 * **Equalizador simples** com sliders para graves e agudos (simulação)
 * **Volume ajustável** com slider
 
-Se quiser, posso acrescentar suporte para **guardar e carregar playlists** em ficheiros.
 
 
 
