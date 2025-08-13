@@ -122,6 +122,8 @@ Agora o leitor inclui:
 * **Controlo de velocidade** com dial (50% a 200%)
 * **Equalizador simples** com sliders para graves e agudos (simulação)
 * **Volume ajustável** com slider
+---
+Agora o script também suporta guardar e carregar playlists em ficheiros .m3u
 
 
 
